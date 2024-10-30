@@ -1,0 +1,9 @@
+{
+    "name":"Jey's simple Extension",
+    "version":"1.0",
+    "manifest_version":3,
+    "description":"A simple extension",
+    "action":{
+        "default_popup":"index.html"
+    }
+}

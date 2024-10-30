@@ -1,0 +1,71 @@
+.outer{
+    width: 20rem;
+    height: 100%;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: black;
+}
+.first, .second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.blue, .green, .red, .yellow{
+    width: 5rem;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.red{
+
+    background-color: red;
+}
+.yellow{
+
+    background-color: yellow;
+}
+.blue{
+
+    background-color: blue;
+}
+.green{
+
+    background-color: green;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+}
+.click_button{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.red:hover , .green:hover, .yellow:hover, .blue:hover{
+    opacity: 0.7;
+}
+button:hover{
+    opacity: 0.7;
+}
+h1{
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
